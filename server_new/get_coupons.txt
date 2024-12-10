@@ -1,0 +1,2 @@
+SELECT CCode, CDiscount, IssuedBy
+FROM Coupon;

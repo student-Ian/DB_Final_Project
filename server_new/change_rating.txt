@@ -1,0 +1,3 @@
+UPDATE Rates
+SET Rating = %s
+WHERE CUsername = %s and RUsername = %s;

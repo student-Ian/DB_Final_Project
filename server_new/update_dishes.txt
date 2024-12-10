@@ -1,0 +1,3 @@
+UPDATE DISH
+SET dname = %s, price = %s, dstatus = %s
+WHERE rusername = %s AND dname = %s;

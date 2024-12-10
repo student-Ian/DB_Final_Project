@@ -1,0 +1,4 @@
+SELECT belongsto, vcode, vdiscount, vstatus
+FROM VOUCHER
+WHERE vstatus = '可使用'
+  AND NOW() BETWEEN vBeginsAt AND vEndsAt;

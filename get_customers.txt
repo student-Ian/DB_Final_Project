@@ -1,0 +1,1 @@
+SELECT CUsername, CPassword FROM CUSTOMER;

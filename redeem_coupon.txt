@@ -1,0 +1,2 @@
+INSERT INTO REDEEMS (OId, CCode)
+    VALUES (%s, %s);

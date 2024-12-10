@@ -1,0 +1,4 @@
+SELECT * FROM "Order"
+WHERE OrderedBy = %s
+ORDER BY OId DESC
+LIMIT 1;

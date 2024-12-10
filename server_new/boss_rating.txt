@@ -1,0 +1,3 @@
+SELECT DISTINCT Rating
+FROM Rates
+WHERE RUsername = %s;

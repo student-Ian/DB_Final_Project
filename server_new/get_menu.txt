@@ -1,0 +1,3 @@
+SELECT dname, price, rusername
+FROM DISH
+WHERE dstatus = '販售中';

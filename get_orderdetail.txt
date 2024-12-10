@@ -1,0 +1,16 @@
+SELECT 
+    od.OId AS OId,
+    r.RUsername AS RUsername,
+    od.DName AS DName,
+    d.price AS price,
+    quantity,
+    VDiscount,
+    CDiscount
+FROM
+    ORDER_DETAIL AS od
+    JOIN RESTAURANT AS r ON od.RUsername = r.RUsername
+    JOIN DISH AS d ON (od.RUsername = d.RUsername AND od.DName = d.DName)
+    JOIN VOUCHER AS v ON od.OId = v.IsUsedOn
+    JOIN REDEEMS AS red ON od.OId = red.OId
+    JOIN COUPON AS c on c.cCode = red.cCode
+WHERE od.OId = %s;

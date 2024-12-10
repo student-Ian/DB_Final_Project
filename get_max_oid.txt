@@ -1,0 +1,2 @@
+SELECT MAX(Oid) AS MaxOid
+FROM "Order";

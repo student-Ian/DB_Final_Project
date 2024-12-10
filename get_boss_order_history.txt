@@ -1,0 +1,3 @@
+SELECT * FROM "Order" as o
+JOIN ORDER_DETAIL as od
+ON od.OId = o.OId; 

@@ -1,0 +1,9 @@
+WITH cte AS (
+    SELECT *
+    FROM Coupon
+    WHERE IssuedBy = %s
+)
+UPDATE Coupon
+SET CDiscount = %s, cEndsAt = %s
+FROM cte
+WHERE Coupon.IssuedBy = cte.IssuedBy;

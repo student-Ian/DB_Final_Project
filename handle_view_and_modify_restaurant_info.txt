@@ -1,0 +1,2 @@
+SELECT RName, RPhone, Address, OpenTime, CloseTime
+FROM Restaurant;

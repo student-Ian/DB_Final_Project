@@ -1,0 +1,2 @@
+SELECT dname, price, rusername, dstatus
+FROM DISH;

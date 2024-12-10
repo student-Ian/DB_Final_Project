@@ -1,0 +1,7 @@
+SELECT DISTINCT RName, Rating
+FROM
+    Order AS o
+    JOIN OrderDetail AS od ON o.OId = od.OId
+    LEFT JOIN Rates AS r ON od.RUsername = r.RUsername
+    JOIN Restaurant AS rest on rest.RUsername = od.RUsername
+WHERE CUsername = %s;

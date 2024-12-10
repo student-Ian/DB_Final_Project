@@ -1,0 +1,2 @@
+INSERT INTO Dish (RUsername, DName, Price, DStatus)
+Value (%s, %s, %s, '販售中')

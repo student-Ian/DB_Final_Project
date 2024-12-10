@@ -1,0 +1,4 @@
+SELECT RUsername, RName, Rating 
+FROM RESTAURANT as r
+JOIN RATES as ra
+ON r.RUsername = ra.RUsername

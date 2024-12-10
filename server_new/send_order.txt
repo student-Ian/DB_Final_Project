@@ -1,0 +1,3 @@
+INSERT INTO "Order" (OId, OrderTime, CollectTime, ArriveTime, Destination, OStatus, OrderedBy, DeliveredBy)
+VALUES
+  (%s, '2024-12-08 12:15:00', '2024-12-09 08:40:00', '2024-12-10 14:10:00', %s, '準備中', %s, %s);

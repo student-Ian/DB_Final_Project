@@ -1,0 +1,2 @@
+INSERT INTO Order_Detail (OId, RUsername, DName, Quantity)
+VALUES (%s, %s, %s, %s);

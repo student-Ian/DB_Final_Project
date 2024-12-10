@@ -1,0 +1,2 @@
+INSERT INTO COUPON (CCode, CDiscount, cBeginsAt, cEndsAt, username)
+VALUES (%s, %s, %s, %s, %s);

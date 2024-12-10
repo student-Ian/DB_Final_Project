@@ -1,0 +1,4 @@
+SELECT r.RUsername, RName, AVG(Rating) AS Rating, OpenTime, CloseTime
+FROM RESTAURANT as r
+LEFT JOIN RATES as ra ON r.RUsername = ra.RUsername
+GROUP BY r.RUsername

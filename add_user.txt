@@ -1,0 +1,2 @@
+INSERT INTO Customer (CUsername, CPassword, CName, CPhone, CLname)
+VALUES (%s, %s, %s, %s, %s);
