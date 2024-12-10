@@ -7,5 +7,8 @@
 <!-- GETTING STARTED -->
 ## 操作方式
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1. 執行 `server.py`
+2. 依照需求執行一至多個 `client` 資料夾裡面的 `main.py`
+3. 帳號分為餐廳業者以及顧客兩種
+4. 依需求登入業者帳號或顧客帳號
+5. 根據提示進行輸入
